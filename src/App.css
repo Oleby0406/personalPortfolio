@@ -1,13 +1,54 @@
 .navA {
-    float: left;
+    float: right;
     display: block;
     text-align: center;
     padding: 0.5em;
+    color: blue;
+    text-decoration: none;
+}
+
+#resume {
+    color: green;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0.5em 1em;
+    margin-left: 0.4em;
+}
+
+#resume:hover {
+    background-color: pink;
+}
+.navA:hover {
+    color: red;
+}
+
+#ham {
+    display: none;
+}
+
+#hambar1, #hambar2, #hambar3 {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 1em;
+    transition: 0.4s;
 }
 
 .navBar {
     background-color: #a3a3a3;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    .navA {
+        display: none;
+    }
+
+    #ham {
+        display: block;
+    }
 }
