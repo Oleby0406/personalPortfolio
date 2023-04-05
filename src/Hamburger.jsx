@@ -17,7 +17,7 @@ function Hamburger({ isOpen }){
                 transform: ${ isOpen ? 'rotate(-45deg) translate(0, -11.5px)' : 'rotate(0)'};
             }
             
-    `}</style>
+        `}</style>
     </>
     );
 }
