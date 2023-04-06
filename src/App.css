@@ -1,3 +1,8 @@
+body {
+    height: 100%;
+    margin: 0px;
+}
+
 .navBar {
     background-color: #a3a3a3;
     display: flex;
@@ -43,7 +48,28 @@
     transition: 0.4s;
 }
 
-h1 {
+#namebox {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20%;
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#name {
     margin-top: 0;
     padding-top: 0;
+    margin-bottom: 0;
+    animation: appear 2s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        translate: -30px 30px;
+    }
+    100% {
+        opacity: 1;
+    }
 }

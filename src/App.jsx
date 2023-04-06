@@ -1,4 +1,4 @@
-import Message from './Message';
+import Name from './Name';
 import Nav from './Nav';
 import './App.css'
 
@@ -7,7 +7,7 @@ function App() {
   <>
     <Nav></Nav>
     <div id="blur">
-      <Message></Message>
+      <Name></Name>
     </div>
   </>
   )
