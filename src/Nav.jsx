@@ -11,12 +11,13 @@ function Nav() {
 
     return (
     <>
+        <div id="ham" onClick={toggleHam}>
+            <div></div>
+            <Hamburger isOpen={hamOpen}/>
+        </div>
         <nav className="navBar">   
             <div></div>
             <div>
-                <div id="ham" onClick={toggleHam}>
-                    <Hamburger isOpen={hamOpen}/>
-                </div>
                 <a className="navA" href="#">About</a>
                 <a className="navA" href="#">Experience</a>
                 <a className="navA" href="#">Projects</a>
@@ -26,7 +27,14 @@ function Nav() {
         <style jsx>{`
             @media screen and (max-width: 750px) {
                 #ham {
-                    display: block;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 100%;
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                    background-color: ${hamOpen ? '#FFFFFF' : '#a3a3a3'};
                 }
 
                 .navA {
@@ -43,11 +51,13 @@ function Nav() {
 
                 .navBar {
                     margin-left: ${hamOpen ? '50%' : '0'};
+                    margin-top: 0;
+                    padding-top: 0;
                     width: ${hamOpen ? '50%' : '100%'};
                     position: ${hamOpen ? 'fixed' : 'static'};
                     height: 100%;
                     display:flex;
-                    justify-content:center;
+                    justify-content:${hamOpen ? 'center' : 'auto'};
                     align-items:center;
                 }
             }
