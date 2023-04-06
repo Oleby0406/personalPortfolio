@@ -12,6 +12,7 @@ function Nav() {
     return (
     <>
         <div id="ham" onClick={toggleHam}>
+            <div id="space"></div>
             <div></div>
             <Hamburger isOpen={hamOpen}/>
         </div>
@@ -26,14 +27,24 @@ function Nav() {
         </nav>
         <style jsx>{`
             @media screen and (max-width: 750px) {
+                #blur {
+                    filter: ${hamOpen ? 'blur(2px)' : 'none'};
+                }
+
                 #ham {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    width: 100%;
                     height: 100%;
                     margin-bottom: 0;
                     padding-bottom: 0;
+                    background-color: #a3a3a3;
+                    filter: none;
+                }
+
+                #space {
+                    width: 50%;
+                    height: 29px;
                     background-color: ${hamOpen ? '#FFFFFF' : '#a3a3a3'};
                 }
 
@@ -59,6 +70,7 @@ function Nav() {
                     display:flex;
                     justify-content:${hamOpen ? 'center' : 'auto'};
                     align-items:center;
+                    filter: none;
                 }
             }
         `}</style>
