@@ -19,7 +19,7 @@ function Nav() {
         <nav className="navBar">   
             <div></div>
             <div>
-                <a className="navA" href="#">About</a>
+                <a className="navA" href="#aboutMe">About</a>
                 <a className="navA" href="#">Experience</a>
                 <a className="navA" href="#">Projects</a>
                 <a className="navA" id="resume" href="#">Resume</a>
@@ -27,6 +27,10 @@ function Nav() {
         </nav>
         <style jsx>{`
             @media screen and (max-width: 750px) {
+                body {
+                    overflow-y: ${hamOpen ? 'hidden' : 'auto'};
+                }
+                
                 #blur {
                     filter: ${hamOpen ? 'blur(2px)' : 'none'};
                 }
