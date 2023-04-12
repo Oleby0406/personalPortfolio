@@ -72,8 +72,21 @@ body {
     margin-left: auto;
     margin-right: auto; 
     margin-top: 30%;
-    display:flex;
     width: 50%;
+    margin-bottom: 100%;
+}
+
+#aboutMe {
+    margin-bottom: 0;
+}
+
+#mePar {
+    float: left;
+    width: 75%;
+}
+
+#meImg {
+    float: right;
 }
 
 @keyframes appear {

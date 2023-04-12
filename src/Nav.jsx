@@ -22,7 +22,7 @@ function Nav() {
                 <a className="navA" href="#aboutMe">About</a>
                 <a className="navA" href="#">Experience</a>
                 <a className="navA" href="#">Projects</a>
-                <a className="navA" id="resume" href="#">Resume</a>
+                <a className="navA" id="resume" href="resume.pdf" target="_blank">Resume</a>
             </div>
         </nav>
         <style jsx>{`
