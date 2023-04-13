@@ -73,7 +73,7 @@ body {
     margin-right: auto; 
     margin-top: 30%;
     width: 50%;
-    margin-bottom: 100%;
+    margin-bottom: 30%; /* TEMPORARY FOR VISIBILITY */
 }
 
 #aboutMe {
@@ -87,6 +87,52 @@ body {
 
 #meImg {
     float: right;
+}
+
+#experience {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 30%;
+    width: 50%;
+    margin-bottom: 30%; /* TEMPORARY FOR VISIBILITY */
+}
+
+#projects {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 30%;
+    width: 50%;
+    margin-bottom: 30%; /* TEMPORARY FOR VISIBILITY */
+}
+
+.rightImg {
+    float: right;
+}
+
+.leftImg {
+    float: left;
+}
+
+.leftText {
+    float: left;
+    width: 50%;
+}
+
+.rightText {
+    float: right;
+    width: 50%;
+}
+
+#sideBar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 22%;
+    margin-left: 3%;
+    position: fixed;
+}
+
+.sideBarItem {
+    padding: 5px;
 }
 
 @keyframes appear {

@@ -20,8 +20,8 @@ function Nav() {
             <div></div>
             <div>
                 <a className="navA" href="#aboutMe">About</a>
-                <a className="navA" href="#">Experience</a>
-                <a className="navA" href="#">Projects</a>
+                <a className="navA" href="#experience">Experience</a>
+                <a className="navA" href="#projects">Projects</a>
                 <a className="navA" id="resume" href="resume.pdf" target="_blank">Resume</a>
             </div>
         </nav>
