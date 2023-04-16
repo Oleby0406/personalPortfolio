@@ -1,18 +1,25 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     height: 100%;
     margin: 0px;
+    background-color: #00004d;
+}
+
+a, p, h1, h2 {
+    color: #ccffff;
 }
 
 .navBar {
-    background-color: #a3a3a3;
+    background-color: #00004d;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     z-index: 9;
+    margin-top: 2%;
 }
 
 .navA {
@@ -20,24 +27,25 @@ body {
     display: block;
     text-align: center;
     padding: 0.5em;
-    color: blue;
     text-decoration: none;
 }
 
 #resume {
-    color: green;
     background-color: transparent;
     border: 1px solid;
     border-radius: 4px;
     padding: 0.5em 1em;
     margin-left: 0.4em;
+    margin-right: 2em;
 }
 
 #resume:hover {
-    background-color: pink;
+    background-color: #000066;
+    color: #ccffff;
 }
+
 .navA:hover {
-    color: red;
+    color: #006666;
 }
 
 #ham {
@@ -47,9 +55,13 @@ body {
 #hambar1, #hambar2, #hambar3 {
     width: 25px;
     height: 3px;
-    background-color: #333;
+    background-color: #ccffff;
     margin: 5px 1em;
     transition: 0.4s;
+}
+
+#hambar1 {
+    margin-top: 30%;
 }
 
 #namebox {
@@ -126,13 +138,15 @@ body {
 #sideBar {
     display: flex;
     flex-direction: column;
-    margin-top: 22%;
+    height: 100%;
     margin-left: 3%;
     position: fixed;
+    margin-top: 40em;
 }
 
 .sideBarItem {
-    padding: 5px;
+    margin: 5px;
+    filter: invert(100%);
 }
 
 @keyframes appear {

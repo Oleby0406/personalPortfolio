@@ -10,8 +10,8 @@ function App() {
   return (
   <>
     <Nav></Nav>
+    <SideBar></SideBar>
     <div id="blur">
-      <SideBar></SideBar>
       <Name></Name>
       <AboutMe></AboutMe>
       <Experience></Experience>

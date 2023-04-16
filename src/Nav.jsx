@@ -12,7 +12,6 @@ function Nav() {
     return (
     <>
         <div id="ham" onClick={toggleHam}>
-            <div id="space"></div>
             <div></div>
             <Hamburger isOpen={hamOpen}/>
         </div>
@@ -36,22 +35,18 @@ function Nav() {
                 }
 
                 #ham {
+                    float: ${hamOpen ? 'none': 'right'};
+                    margin-left: 50%;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
                     height: 100%;
                     margin-bottom: 0;
                     padding-bottom: 0;
-                    background-color: #a3a3a3;
+                    background-color: ${hamOpen ? '#000060' : '#00004d'};
                     filter: none;
                 }
-
-                #space {
-                    width: 50%;
-                    height: 29px;
-                    background-color: ${hamOpen ? '#FFFFFF' : '#a3a3a3'};
-                }
-
+                
                 .navA {
                     display: ${hamOpen ? 'inline-block' : 'none'};
                     font-size: 1.5em;
@@ -75,6 +70,7 @@ function Nav() {
                     justify-content:${hamOpen ? 'center' : 'auto'};
                     align-items:center;
                     filter: none;
+                    background-color: #000060;
                 }
             }
         `}</style>
