@@ -5,15 +5,17 @@ html {
 body {
     height: 100%;
     margin: 0px;
-    background-color: #00004d;
+    background-color: #19194d;
 }
 
 a, p, h1, h2 {
-    color: #ccffff;
+    /*color: #ccffff;*/
+    color: #FFFFFF;
+    font-family: 'Times New Roman', serif;
 }
 
 .navBar {
-    background-color: #00004d;
+    background-color: #19194d;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,6 +52,7 @@ a, p, h1, h2 {
 
 #ham {
     display: none;
+    z-index: 9;
 }
 
 #hambar1, #hambar2, #hambar3 {

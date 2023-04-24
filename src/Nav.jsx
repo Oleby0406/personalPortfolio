@@ -36,14 +36,17 @@ function Nav() {
 
                 #ham {
                     float: ${hamOpen ? 'none': 'right'};
-                    margin-left: 50%;
+                    position: ${hamOpen ? 'fixed' : 'static'};
                     display: flex;
+                    width: 50%;
+                    height: 13%;
                     align-items: center;
                     justify-content: space-between;
-                    height: 100%;
                     margin-bottom: 0;
+                    top: 0;
+                    right: 0;
                     padding-bottom: 0;
-                    background-color: ${hamOpen ? '#000060' : '#00004d'};
+                    background-color: ${hamOpen ? '#000060' : '#19194d'};
                     filter: none;
                 }
                 
@@ -66,7 +69,7 @@ function Nav() {
                     width: ${hamOpen ? '50%' : '100%'};
                     position: ${hamOpen ? 'fixed' : 'static'};
                     height: 100%;
-                    display:flex;
+                    display: flex;
                     justify-content:${hamOpen ? 'center' : 'auto'};
                     align-items:center;
                     filter: none;
