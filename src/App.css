@@ -5,17 +5,17 @@ html {
 body {
     height: 100%;
     margin: 0px;
-    background-color: #19194d;
+    background-color: #020234;
 }
 
 a, p, h1, h2 {
     /*color: #ccffff;*/
-    color: #FFFFFF;
+    color: #bfd7ea;
     font-family: 'Times New Roman', serif;
 }
 
 .navBar {
-    background-color: #19194d;
+    background-color: #020234;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,6 +81,11 @@ a, p, h1, h2 {
     padding-top: 0;
     margin-bottom: 0;
     animation: appear 2s;
+    font-size: 4em;
+}
+
+#underName {
+    font-size: 2em;
 }
 
 #about {
@@ -122,6 +127,7 @@ a, p, h1, h2 {
 
 .rightImg {
     float: right;
+    margin-left: 30%;
 }
 
 .leftImg {

@@ -10,7 +10,7 @@ function AboutMe() {
                     enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                     nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <img id="rightImg" src="images/placeHolder.jpg" height="150px" width="150px"/>
+                <img className="rightImg" src="images/placeHolder.jpg" height="150px" width="150px"/>
                 <h2 className="projectHeader">Project 2</h2>
                 <p className="rightText">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
@@ -18,7 +18,7 @@ function AboutMe() {
                     enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                     nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <img id="leftImg" src="images/placeHolder.jpg" height="150px" width="150px"/>
+                <img className="leftImg" src="images/placeHolder.jpg" height="150px" width="150px"/>
             </div>
         </>
     );

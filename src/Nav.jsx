@@ -46,7 +46,7 @@ function Nav() {
                     top: 0;
                     right: 0;
                     padding-bottom: 0;
-                    background-color: ${hamOpen ? '#000060' : '#19194d'};
+                    background-color: ${hamOpen ? '#000060' : '#020234'};
                     filter: none;
                 }
                 
