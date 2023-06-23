@@ -18,10 +18,10 @@ function Nav() {
         <nav className="navBar">   
             <div></div>
             <div>
-                <a className="navA" href="#aboutMe">About</a>
-                <a className="navA" href="#experience">Experience</a>
-                <a className="navA" href="#projects">Projects</a>
-                <a className="navA" id="resume" href="resume.pdf" target="_blank">Resume</a>
+                <a className="navA" href="#aboutMe" onClick={toggleHam}>About</a>
+                <a className="navA" href="#experience" onClick={toggleHam}>Experience</a>
+                <a className="navA" href="#projects" onClick={toggleHam}>Projects</a>
+                <a className="navA" id="resume" href="resume.pdf" target="_blank" onClick={toggleHam}>Resume</a>
             </div>
         </nav>
         <style jsx>{`

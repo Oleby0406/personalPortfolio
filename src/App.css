@@ -13,7 +13,6 @@ body::-webkit-scrollbar {
 }
 
 a, p, h1, h2 {
-    /*color: #ccffff;*/
     color: #bfd7ea;
     font-family: 'Times New Roman', serif;
 }
@@ -97,7 +96,7 @@ a, p, h1, h2 {
     margin-right: auto; 
     margin-top: 30%;
     width: 60%;
-    margin-bottom: 30%; /* TEMPORARY FOR VISIBILITY */
+    margin-bottom: 5%;
 }
 
 #aboutMe {
@@ -116,17 +115,17 @@ a, p, h1, h2 {
 #experience {
     margin-left: auto;
     margin-right: auto; 
-    margin-top: 30%;
+    margin-top: 5%;
     width: 60%;
-    margin-bottom: 30%; /* TEMPORARY FOR VISIBILITY */
+    margin-bottom: 5%;
 }
 
 #projects {
     margin-left: auto;
     margin-right: auto; 
-    margin-top: 30%;
+    margin-top: 5%;
     width: 60%;
-    margin-bottom: 30%; /* TEMPORARY FOR VISIBILITY */
+    margin-bottom: 5%;
 }
 
 .projectSec {
@@ -156,6 +155,24 @@ a, p, h1, h2 {
 .sideBarItem {
     margin: 5px;
     filter: invert(100%);
+}
+
+@media screen and (max-width: 750px) {
+    .projectSec {
+        display: inline;
+    }
+
+    .projTextRight {
+        margin-left: 0em;
+    }
+    
+    .projTextLeft {
+        margin-right: 0em;
+    }
+
+    #mePar {
+        display: inline;
+    }
 }
 
 @keyframes appear {
