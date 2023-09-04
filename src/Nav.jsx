@@ -21,7 +21,7 @@ function Nav() {
                 <a className="navA" href="#aboutMe" onClick={toggleHam}>About</a>
                 <a className="navA" href="#experience" onClick={toggleHam}>Experience</a>
                 <a className="navA" href="#projects" onClick={toggleHam}>Projects</a>
-                <a className="navA" id="resume" href="resume.pdf" target="_blank" onClick={toggleHam}>Resume</a>
+                <a className="navA" id="resume" href="personalPortfolio/images/resume.pdf" target="_blank" onClick={toggleHam}>Resume</a>
             </div>
         </nav>
         <style jsx>{`
@@ -39,7 +39,7 @@ function Nav() {
                     position: ${hamOpen ? 'fixed' : 'static'};
                     display: flex;
                     width: 50%;
-                    height: 13%;
+                    height: 18%;
                     align-items: center;
                     justify-content: space-between;
                     margin-bottom: 0;
