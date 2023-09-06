@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Hamburger from "./Hamburger";
+import Pdf from "./resume.pdf";
 
 function Nav() {
     
@@ -21,7 +22,7 @@ function Nav() {
                 <a className="navA" href="#aboutMe" onClick={toggleHam}>About</a>
                 <a className="navA" href="#experience" onClick={toggleHam}>Experience</a>
                 <a className="navA" href="#projects" onClick={toggleHam}>Projects</a>
-                <a className="navA" id="resume" href="personalPortfolio/images/resume.pdf" target="_blank" onClick={toggleHam}>Resume</a>
+                <a className="navA" id="resume" href={Pdf} target="_blank" onClick={toggleHam}>Resume</a>
             </div>
         </nav>
         <style jsx>{`
