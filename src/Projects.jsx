@@ -15,16 +15,16 @@ function Projects() {
                         <img src="images/proj1.png" height="250px" />
                     </div>
                 </div>
-                <a className="projectHeader" href="#">Project 2</a>
+                <a className="projectHeader" href="https://digitrecognizer.onrender.com/">Digit Recognizer</a>
                 <div className="projectSec">
                     <div className="leftImg">
-                        <img src="images/placeHolder.jpg" height="150px" width="150px"/>
+                        <img src="images/proj2.png" height="250px"/>
                     </div>
                     <p className="projTextRight">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat.
+                        Project in computer vision and machine learning designed
+                        to recognize individual digits from user drawn images. Made 
+                        with Flask and the Python Keras library and trained on the 
+                        60,000 digit MNIST dataset using a CNN model. 
                     </p>
                 </div>
             </div>

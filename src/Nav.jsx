@@ -20,7 +20,7 @@ function Nav() {
             <div></div>
             <div>
                 <a className="navA" href="#aboutMe" onClick={toggleHam}>About</a>
-                <a className="navA" href="#experience" onClick={toggleHam}>Experience</a>
+                {/*<a className="navA" href="#experience" onClick={toggleHam}>Experience</a>*/}
                 <a className="navA" href="#projects" onClick={toggleHam}>Projects</a>
                 <a className="navA" id="resume" href={Pdf} target="_blank" onClick={toggleHam}>Resume</a>
             </div>

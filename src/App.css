@@ -110,6 +110,7 @@ a, p, h1, h2 {
 #meText {
     flex: 1;
     margin-right: 1.5em;
+    font-size: 1.2em;
 }
 
 #experience {
@@ -131,6 +132,7 @@ a, p, h1, h2 {
 .projectSec {
     display: flex;
     align-items: center;
+    margin-top: 0.5em;
 }
 
 .projectHeader {
@@ -144,11 +146,13 @@ a, p, h1, h2 {
 .projTextRight {
     flex: 1;
     margin-left: 1.5em;
+    font-size: 1.2em;
 }
 
 .projTextLeft {
     flex: 1;
     margin-right: 1.5em;
+    font-size: 1.2em;
 }
 
 #sideBar {

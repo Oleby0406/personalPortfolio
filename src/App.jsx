@@ -14,7 +14,9 @@ function App() {
     <div id="blur">
       <Name></Name>
       <AboutMe></AboutMe>
+      {/*
       <Experience></Experience>
+      */}
       <Projects></Projects>
     </div>
   </>

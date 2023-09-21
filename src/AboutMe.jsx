@@ -9,10 +9,10 @@ function AboutMe() {
                         majoring in computer science and minoring in cognitive 
                         science. I enjoy and have extensive experience creating 
                         practical applications that solve everyday problems
-                        both inside and outside the classrom.
+                        both inside and outside the classroom.
                         I am particularly interested in AI and its future 
-                        possibilities. I've recently been working with JS, 
-                        Python, and Django.
+                        possibilities. I've recently been working with JavaScript, 
+                        Python, Flask, and Django.
                     </p>
                     <img id="meImg" src="images/me.jpg" height="200px"/>
                 </div>
