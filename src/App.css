@@ -8,6 +8,10 @@ body {
     background-color: #020234;
 }
 
+#root {
+    padding: 0.1px;
+}
+
 body::-webkit-scrollbar {
     display: none;
 }
@@ -161,7 +165,7 @@ a, p, h1, h2 {
     height: 100%;
     margin-left: 3%;
     position: fixed;
-    margin-top: 37em;
+    margin-top: 40em;
 }
 
 .sideBarItem {

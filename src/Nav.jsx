@@ -40,15 +40,15 @@ function Nav() {
                     position: ${hamOpen ? 'fixed' : 'static'};
                     display: flex;
                     width: 50%;
-                    height: 18%;
                     align-items: center;
                     justify-content: space-between;
                     margin-bottom: 0;
-                    top: 0;
+                    top: 0px;
                     right: 0;
                     padding-bottom: 0;
                     background-color: ${hamOpen ? '#000060' : '#020234'};
                     filter: none;
+                    z-index: 10;
                 }
                 
                 .navA {
