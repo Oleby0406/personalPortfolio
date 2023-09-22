@@ -12,7 +12,7 @@ function AboutMe() {
                         both inside and outside the classroom.
                         I am particularly interested in AI and its future 
                         possibilities. I've recently been working with JavaScript, 
-                        Python, Flask, and Django.
+                        Python, Tensorflow, Flask, and Django.
                     </p>
                     <img id="meImg" src="images/me.jpg" height="200px"/>
                 </div>

@@ -24,7 +24,7 @@ function Projects() {
                         Project in computer vision and machine learning designed
                         to recognize individual digits from user drawn images. Made 
                         with Flask and the Python Keras library and trained on the 
-                        60,000 digit MNIST dataset using a CNN model. 
+                        60,000 digit MNIST dataset using a CNN. 
                     </p>
                 </div>
             </div>
