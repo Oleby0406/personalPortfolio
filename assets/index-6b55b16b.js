@@ -48,7 +48,7 @@ Error generating stack: `+i.message+`
                 transform: ${e?"rotate(-45deg) translate(0, -11.5px)":"rotate(0)"};
             }
             
-        `})]})}const Dd="/personalPortfolio/assets/resume-03910727.pdf";function Fd(){const[e,n]=tl.useState(!1),t=()=>{n(!e)};return oe(Gt,{children:[oe("div",{id:"ham",onClick:t,children:[z("div",{}),z(Id,{isOpen:e})]}),oe("nav",{className:"navBar",children:[z("div",{}),oe("div",{children:[z("a",{className:"navA",href:"#aboutMe",onClick:t,children:"About"}),z("a",{className:"navA",href:"#projects",onClick:t,children:"Projects"}),z("a",{className:"navA",id:"resume",href:Dd,target:"_blank",onClick:t,children:"Resume"})]})]}),z("style",{jsx:!0,children:`
+        `})]})}const Dd="/personalPortfolio/assets/resume-1f071c0a.pdf";function Fd(){const[e,n]=tl.useState(!1),t=()=>{n(!e)};return oe(Gt,{children:[oe("div",{id:"ham",onClick:t,children:[z("div",{}),z(Id,{isOpen:e})]}),oe("nav",{className:"navBar",children:[z("div",{}),oe("div",{children:[z("a",{className:"navA",href:"#aboutMe",onClick:t,children:"About"}),z("a",{className:"navA",href:"#projects",onClick:t,children:"Projects"}),z("a",{className:"navA",id:"resume",href:Dd,target:"_blank",onClick:t,children:"Resume"})]})]}),z("style",{jsx:!0,children:`
             @media screen and (max-width: 750px) {
                 body {
                     overflow-y: ${e?"hidden":"auto"};
