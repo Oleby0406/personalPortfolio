@@ -15,7 +15,7 @@ function Projects() {
                         <img src="images/proj1.png" height="250px" />
                     </div>
                 </div>
-                <a className="projectHeader" href="https://digitrecognizer.onrender.com/">Digit Recognizer</a>
+                <a className="projectHeader" href="https://digitrecognizer.up.railway.app/">Digit Recognizer</a>
                 <div className="projectSec">
                     <div className="leftImg">
                         <img src="images/proj2.png" height="250px"/>
